@@ -25,7 +25,7 @@
     window.addEventListener("unhandledrejection", e => bootLog(`PROMISE ERROR: ${e.reason}`));
     bootLog("loading Unity WebGL files...");
     const buildUrl = "Build";
-    const buildVersion = "20260503_0045";
+    const buildVersion = "20260503_0055";
     const versioned = path => `${path}?v=${buildVersion}`;
     const loaderUrl = `${buildUrl}/WebGL.loader.js`;
     const config = {
