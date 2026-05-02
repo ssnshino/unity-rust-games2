@@ -25,18 +25,20 @@
     window.addEventListener("unhandledrejection", e => bootLog(`PROMISE ERROR: ${e.reason}`));
     bootLog("loading Unity WebGL files...");
     const buildUrl = "Build";
+    const buildVersion = "20260503_0030";
+    const versioned = path => `${path}?v=${buildVersion}`;
     const loaderUrl = `${buildUrl}/WebGL.loader.js`;
     const config = {
-      dataUrl: `${buildUrl}/WebGL.data.gz`,
-      frameworkUrl: `${buildUrl}/WebGL.framework.js.gz`,
-      codeUrl: `${buildUrl}/WebGL.wasm.gz`,
+      dataUrl: versioned(`${buildUrl}/WebGL.data.gz`),
+      frameworkUrl: versioned(`${buildUrl}/WebGL.framework.js.gz`),
+      codeUrl: versioned(`${buildUrl}/WebGL.wasm.gz`),
       streamingAssetsUrl: "StreamingAssets",
       companyName: "Shinomiya",
       productName: "AIRRACE3D2",
       productVersion: "0.1.0"
     };
     const script = document.createElement("script");
-    script.src = loaderUrl;
+    script.src = versioned(loaderUrl);
     script.onload = () => {
       bootLog("loader ready, creating Unity instance...");
       createUnityInstance(document.getElementById("unity-canvas"), config, progress => {
