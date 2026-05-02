@@ -1,0 +1,24 @@
+services:
+  unity-rust-games2:
+    container_name: ayano-lab-unity-rust-games2
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /workspace/app
+    command: ["cargo", "run"]
+    ports:
+      - "18092:3000"
+    environment:
+      VIRTUAL_HOST: unity-rust-games2.wos.ktsys.jp
+      VIRTUAL_PORT: "3000"
+      CARGO_REGISTRIES_CRATES_IO_PROTOCOL: sparse
+    networks:
+      - default
+      - wos-proxy-network
+    volumes:
+      - ./app:/workspace/app
+
+networks:
+  wos-proxy-network:
+    external: true
+

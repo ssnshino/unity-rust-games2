@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.4.3f1
+CRC: 612872095
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2ff33c5af011aa60ffa51dcee517c6fe
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c98a4af2c6cb2c46eb9085ee3241e5ef
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 1bbfa0ff7c71afa9bbbf288aa331b691
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AirRace/Factory/RoundWorldPrefabs/Round2SpaceColonyWorldPrefab.prefab
+Dependencies: []

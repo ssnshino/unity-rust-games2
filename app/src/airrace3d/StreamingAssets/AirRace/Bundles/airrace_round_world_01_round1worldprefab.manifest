@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.4.3f1
+CRC: 913344451
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d28e3f2401563d3a21efe9d71121ca3b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d27ca97d265d2bb857322e757c0cb451
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 29c42b0869fa4b2a5aef2ea3bfcdd90f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AirRace/Factory/RoundWorldPrefabs/Round1WorldPrefab.prefab
+Dependencies: []

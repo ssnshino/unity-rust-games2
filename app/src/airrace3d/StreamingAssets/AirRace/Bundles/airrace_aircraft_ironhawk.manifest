@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.4.3f1
+CRC: 1079931694
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 56cf420ead0b716356ad13d9e52403df
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3998be4f39279cf2665a78668bc7a68e
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 5ece5233ea468c68f01160319c0962e9
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AirRace/Factory/AircraftPrefabs/IronHawkPrefab.prefab
+Dependencies: []
